@@ -35,6 +35,6 @@ def hangman(word):
     if not win:
         print("\n"
               .join(stages[0: wrong]))
-        print("You lose! It was {}.".format(word))
+        print("You lose, pendejo! It was {}.".format(word))
 
 hangman("cat")
